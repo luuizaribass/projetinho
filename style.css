@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+ul#jogadorEscolha li a:hover, 
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+    transition: ease-in-out 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background-color: #6b2aa7;
+}
+
+img{
+    width: 150px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#versus {
+    margin: 0px 100px;
+    font-size: 150px;
+    color: #000000;
+    text-shadow: 3px 3px 9px rgba(255, 255, 255, 0.623);
+}
+
+#versus img {
+    width: 222px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
